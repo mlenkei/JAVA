@@ -1,9 +1,16 @@
-public class Test {// объявляется класс Test
+// Java Program for class example
 
-    public static void main(String[] args) {// так включаются программы,
-                                            // просто запомнить
+class Student {
+    // data member (also instance variable)
+    int id;
+    // data member (also instance variable)
+    String name;
 
-        System.out.println("Hello world");
-        System.out.println("5 раз");
+    public static void main(String args[]) {
+        // creating an object of
+        // Student
+        Student s1 = new Student();
+        System.out.println(s1.id);
+        System.out.println(s1.name);
     }
 }
