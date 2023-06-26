@@ -1,3 +1,5 @@
+// Введите одно из уравнений с тремя неизвестными
+//  типа 1? + ?3 = 5? или ?8 + 2? = ?5
 package DZ;
 
 import java.util.Scanner;
@@ -56,53 +58,6 @@ public class task4_2_dz {
                 }
             }
         }
-        // !parts[11].contains("?")) {
-        // w = 0;
-        // b = 0;
-        // if w + b != r
-        // }
-        // if (w == -1 && !parts[1].contains("?")) {
-        // w = Integer.parseInt(parts[1]);
-        // }
-        // if (e == -1 && !parts[5].contains("?")) {
 
-        // }
-        // if (r == -1 && !parts[6].contains("?")) {
-        // r = Integer.parseInt(parts[6]);
-        // }
-        // if (t == -1 && !parts[10].contains("?")) {
-        // t = Integer.parseInt(parts[10]);
-        // }
-        // if (b == -1 && !parts[11].contains("?")) {
-        // b = Integer.parseInt(parts[11]);
-        // }
-        // if (parts[0].charAt(i) == '?') {
-        // q = i * 10;
-        // }
-        // if (parts[1].charAt(i) == '?') {
-        // w = i;
-        // }
-        // if (parts[5].charAt(i) == '?') {
-        // e = i * 10;
-        // }
-        // if (parts[6].charAt(i) == '?') {
-        // r = i;
-        // }
-        // if (parts[10].charAt(i) == '?') {
-        // t = i * 10;
-        // }
-        // if (parts[11].charAt(i) == '?') {
-        // b = i;
-        // }
-
-        // }
-        // System.out.println("%d + %d + %d + %d = %d + %d, q, w, e, r, t, b");
-        // // if (q + w + e + r == t + b && q != -1 && w != -1 && e != -1 && r != -1 &&
-        // t
-        // // != -1 && b != -1) {
-        // // System.out.println("%d + %d + %d + %d = %d + %d, q, w, e, r, t, b");
-        // // } else {
-
-        // // System.out.println("Решений нет");
     }
 }
