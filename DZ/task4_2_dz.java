@@ -5,10 +5,6 @@ package DZ;
 import java.util.Scanner;
 
 public class task4_2_dz {
-
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите уравнение: ");
@@ -39,25 +35,28 @@ public class task4_2_dz {
                     res = q * 10 + w + e * 10 + r;
                     System.out.printf("Решение: %d%d + %d%d = %d \n", q, w, e, r, res);
                 }
-            }
-        }
+             }
+          }
 
-        if (parts[1].contains("?") && parts[5].contains("?") && parts[11].contains("?")) {
-            int q = Integer.parseInt(parts[0]);
-            int t = Integer.parseInt(parts[10]);
-            int r = Integer.parseInt(parts[6]);
-            for (int i = 1; i < 10; i++) {
-                int w = i;
-                for (int j = 1; j < 10; j++) {
-                    int res;
-                    int e = j;
-                    if (q + e < 9) {
-                        res = q * 10 + w + e * 10 + r;
-                        System.out.printf("Решение: %d%d + %d%d = %d \n", q, w, e, r, res);
-                    }
-                }
-            }
-        }
-
-    }
+          if (parts[1].contains("?") && parts[5].contains("?") && parts[11].contains("?")) {
+              int q = Integer.parseInt(parts[0]);
+              int t = Integer.parseInt(parts[10]);
+              int r = Integer.parseInt(parts[6]);
+              for (int i = 1; i < 10; i++) {
+                  int w = i;
+                  int b = i;
+                  for (int j = 1; j < 10; j++) {
+                      int res;
+                      int e = j;
+                      if (q + e < 9) {
+                          res = q * 10 + w + e * 10 + r;
+                          if (res <= t*10+b && res > t*10-1){
+                              System.out.printf("Решение: %d%d + %d%d = %d \n", q, w, e, r, res);
+                          }
+                        
+                     }
+                 }
+             }
+         }
+     }
 }
