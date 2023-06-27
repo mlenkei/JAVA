@@ -40,8 +40,8 @@ public class task4_2_dz {
                         }
                     }
                 }
-            }
-        }
+             }
+          }
           if (parts[1].contains("?") && parts[5].contains("?") && parts[11].contains("?")) {
               int q = Integer.parseInt(parts[0]);
               int t = Integer.parseInt(parts[10]);
