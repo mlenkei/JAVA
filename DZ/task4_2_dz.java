@@ -22,22 +22,26 @@ public class task4_2_dz {
             int b = Integer.parseInt(parts[11]);
             int e = Integer.parseInt(parts[5]);
             int r;
-            System.out.println(w);
-            if (w >= b) {
-                r = w - b;
+            System.out.println(b);
+            if (b >= w) {
+                r = b - w;
             } else {
-                r = w - b + 10;
+                r = b - w + 10;
             }
             for (int i = 1; i < 10; i++) {
                 int q = i;
                 int res;
-                if (q + e < 10) {
-                    res = q * 10 + w + e * 10 + r;
-                    System.out.printf("Решение: %d%d + %d%d = %d \n", q, w, e, r, res);
+                for (int j= 1; j < 10; j++){
+                    int t =j;
+                    if (q + e < 10) {
+                        res = q * 10 + w + e * 10 + r;
+                        if (res == t*10+b){
+                            System.out.printf("Решение: %d%d + %d%d = %d \n", q, w, e, r, res);
+                        }
+                    }
                 }
-             }
-          }
-
+            }
+        }
           if (parts[1].contains("?") && parts[5].contains("?") && parts[11].contains("?")) {
               int q = Integer.parseInt(parts[0]);
               int t = Integer.parseInt(parts[10]);
