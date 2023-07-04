@@ -1,3 +1,6 @@
+package DZ;
+
+
 // Реализуйте алгоритм сортировки пузырьком числового
 //  массива, результат после каждой итерации
 //  запишите в лог-файл.
@@ -10,7 +13,7 @@ public class task2_dz2 {
 
     public static void main(String[] args) throws IOException {
         Logger logger = Logger.getLogger(task2_dz2.class.getName());
-        FileHandler fh = new FileHandler(".vscode\\DZ\\logTask2.xml");
+        FileHandler fh = new FileHandler("C:\\Users\\\u041B\u0451\u043D\u044F\\Desktop\\JAVA\\DZ\\logTask2.xml");
         logger.addHandler(fh);
         XMLFormatter xml = new XMLFormatter();
         fh.setFormatter(xml);

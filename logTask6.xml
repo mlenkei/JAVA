@@ -2,13 +2,13 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-07-04T18:13:46.542040600Z</date>
-  <millis>1688494426542</millis>
-  <nanos>40600</nanos>
+  <date>2023-07-04T17:56:56.562217Z</date>
+  <millis>1688493416562</millis>
+  <nanos>217000</nanos>
   <sequence>0</sequence>
-  <logger>DZ.task2_dz2</logger>
+  <logger>DZ.task3_3dz_dop_Maslov_LA</logger>
   <level>INFO</level>
-  <class>DZ.task2_dz2</class>
+  <class>DZ.task3_3dz_dop_Maslov_LA</class>
   <method>main</method>
   <thread>1</thread>
   <message>Sort Array</message>

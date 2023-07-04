@@ -1,8 +1,7 @@
-package DZ;
-
 // 2) Найти минимальное значение
 // 3) Найти максимальное значение
 // 4) Найти среднее значение
+package DZ;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,8 +15,8 @@ public class task2_3dz_Maslov_LA {
 
     public static void main(String[] args) throws IOException {
         Logger logger = Logger.getLogger(task2_3dz_Maslov_LA.class.getName());
-        FileHandler fh = new FileHandler(".vscode\\DZ\\logTask5.xml");
-        ((Logger) logger).addHandler(fh);
+        FileHandler fh = new FileHandler("logTask5.xml");
+        logger.addHandler(fh);
         XMLFormatter xml = new XMLFormatter();
         fh.setFormatter(xml);
         logger.info("Sort Array");

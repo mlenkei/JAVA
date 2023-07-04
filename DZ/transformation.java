@@ -1,3 +1,5 @@
+package DZ;
+
 // Помощник.
 import java.io.BufferedReader;
 import java.io.FileReader;

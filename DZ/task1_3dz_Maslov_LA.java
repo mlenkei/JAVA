@@ -1,5 +1,7 @@
 package DZ;
 
+
+
 // 1. Дан произвольный список целых чисел,
 //  удалить из него чётные числа.
 
@@ -10,9 +12,10 @@ import java.util.Scanner;
 import java.util.logging.*;
 
 public class task1_3dz_Maslov_LA {
+
     public static void main(String[] args) throws IOException {
         Logger logger = Logger.getLogger(task1_3dz_Maslov_LA.class.getName());
-        FileHandler fh = new FileHandler(".vscode\\DZ\\logTask2.xml");
+        FileHandler fh = new FileHandler("logTask2.xml");
         logger.addHandler(fh);
         XMLFormatter xml = new XMLFormatter();
         fh.setFormatter(xml);

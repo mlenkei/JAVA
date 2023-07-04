@@ -1,4 +1,8 @@
+package DZ;
+
+
 // Реализовать алгоритм сортировки слиянием
+
 
 import java.io.IOException;
 import java.util.Random;
@@ -49,7 +53,7 @@ public class task3_3dz_dop_Maslov_LA {
 
     public static void main(String[] args) throws IOException {
         Logger logger = Logger.getLogger(task3_3dz_dop_Maslov_LA.class.getName());
-        FileHandler fh = new FileHandler(".vscode\\DZ\\logTask6.xml");
+        FileHandler fh = new FileHandler("logTask6.xml");
         logger.addHandler(fh);
         XMLFormatter xml = new XMLFormatter();
         fh.setFormatter(xml);
