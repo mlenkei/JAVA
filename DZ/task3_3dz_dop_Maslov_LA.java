@@ -7,7 +7,7 @@ import java.util.logging.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class task3_dop_Maslov_LA {
+public class task3_3dz_dop_Maslov_LA {
 
     public static void quickSort(int[] arrayLeonid, int low, int high) {
 
@@ -47,8 +47,8 @@ public class task3_dop_Maslov_LA {
         }
     }
 
-    public static void main(String args[]) throws IOException {
-        Logger logger = Logger.getLogger(task3_dop_Maslov_LA.class.getName());
+    public static void main(String[] args) throws IOException {
+        Logger logger = Logger.getLogger(task3_3dz_dop_Maslov_LA.class.getName());
         FileHandler fh = new FileHandler(".vscode\\DZ\\logTask6.xml");
         logger.addHandler(fh);
         XMLFormatter xml = new XMLFormatter();
