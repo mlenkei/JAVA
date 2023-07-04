@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-06-29T08:33:20.066894900Z</date>
+  <millis>1688027600066</millis>
+  <nanos>894900</nanos>
+  <sequence>0</sequence>
+  <logger>task4_dz2</logger>
+  <level>INFO</level>
+  <class>task4_dz2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сalculator</message>
+</record>
+</log>
