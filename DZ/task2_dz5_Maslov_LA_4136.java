@@ -24,7 +24,7 @@
 // Иван 4, ...
 
 
-package For_java_HW;
+package DZ;
 
 import java.util.ArrayList;
 import java.util.HashMap;
